@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <h4>React on the Go</h4>
+      <h1>React on the Go</h1>
       <Suspense fallback={<p>Nadir vai loading...</p>}>
         <Countries CountriesPromise={CountriesPromise}></Countries>
       </Suspense>
